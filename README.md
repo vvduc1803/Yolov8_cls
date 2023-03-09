@@ -4,7 +4,7 @@ A model of **image classification** based on **Yolov8** architecture using pytor
 
 ### Dependencies
 
-* Python3, Scikit-learn
+* Python3
 * Pytorch
 * Tensorboard
 
@@ -60,7 +60,7 @@ Sample classification results
 
 1. The **VGG11 network** with 38M params has a very large size i.e **0.4 GB**, compared to other models like **Resnet18(40 MB)**
 2. Adjusting parameters like **batch size, number of workers, pin_memory, ** etc. may help you **reduce training time**, especially if you have a big dataset and a high-end machine(hardware).
-3. Adjusting parameters like **learning rate, weight decay** etc maybe can help you improve model.
+3. Adjusting parameters like **learning rate, weight decay** etc maybe can help you **improve** model.
 ### Todo
 
 1. Experiments with different **learning-rate and optimizers**.
@@ -69,10 +69,6 @@ Sample classification results
 ### Authors
 
 Van Duc
-
-### Citations
-
- If you find this code useful in your research, please consider citing: [![DOI](https://zenodo.org/badge/219696552.svg)](https://zenodo.org/badge/latestdoi/219696552)
  
 ### Acknowledgments
 * "https://blog.roboflow.com/whats-new-in-yolov8/"
