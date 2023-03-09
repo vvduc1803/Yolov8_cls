@@ -18,7 +18,7 @@ pip install torchvision  # pytorch for vision
 
 ### How to run
 
-⬇️⬇️**Download** and extract training dataset on Kaggle: [500 bird ](https://www.kaggle.com/datasets/gpiosenka/100-bird-species)
+⬇️⬇️**Download** and extract training dataset on Kaggle: [500 bird species dataset](https://www.kaggle.com/datasets/gpiosenka/100-bird-species)
 
 ⬇️⬇️**Download** pretrained model: [Model](https://drive.google.com/file/d/1zyREJei3KgIUaEEPvsaZxjdXNuD6grgx/view)
 
