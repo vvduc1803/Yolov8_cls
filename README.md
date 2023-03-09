@@ -18,9 +18,11 @@ pip install torchvision  # pytorch for vision
 
 ### How to run
 
-**Download** and extract training dataset on Kaggle: [500 bird ](https://www.kaggle.com/datasets/gpiosenka/100-bird-species)
+⬇️⬇️**Download** and extract training dataset on Kaggle: [500 bird ](https://www.kaggle.com/datasets/gpiosenka/100-bird-species)
 
-**Hugging face** version: [Hugging Face](https://huggingface.co/spaces/vvd2003/Yolov8_cls_500_bird_species)
+⬇️⬇️**Download** pretrained model: [Model](https://drive.google.com/file/d/1zyREJei3KgIUaEEPvsaZxjdXNuD6grgx/view)
+
+🤗🤗**Hugging face** version: [Hugging Face](https://huggingface.co/spaces/vvd2003/Yolov8_cls_500_bird_species)
 
 Run the following **scripts** for training and/or testing
 
@@ -72,4 +74,3 @@ Van Duc
  
 ### Acknowledgments
 * "https://blog.roboflow.com/whats-new-in-yolov8/"
-* "https://www.youtube.com/@vietnh1009"
