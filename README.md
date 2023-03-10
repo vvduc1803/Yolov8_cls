@@ -33,26 +33,22 @@ python train.py # For training the model
 -----------
 Run the following **scripts** for visual result of model:
 
-**Download [Docker](https://www.docker.com/)**
+**1.**
+Download **[Docker](https://www.docker.com/)**
 
-**Open CMD**
+Download **[Image]()** and extract
 
-**1**
-```python
-docker pull vvduc/500bird_cls
-```
+Open **CMD**
 
-**2**
+**2.**
+Copy and paste
 ```python
-docker run -it -d --name 500_bird_cls -p 1234:1234 vvduc/500bird_cls     # Run the container
+docker run -it -d --name 500_bird_cls -p 1234:1234 vvduc/500bird_cls     # Run container
 ```
-**3**
+**3.**
+Copy and paste
 ```python
-docker ps -a                                                              # Run the container
-```
-**4**
-```python
-docker log -f 500_bird_cls                                                # Run the container
+docker log -f 500_bird_cls                                               # Run visual result
 ```
 ------------------------------------------
 
