@@ -6,7 +6,6 @@ A model of **image classification** based on **Yolov8** architecture using pytor
 
 * Python3
 * Pytorch
-* Tensorboard
 
 ```python
 pip instal pytorch       # pytorch library
@@ -28,10 +27,10 @@ Run the following **scripts** for training and/or testing
 python train.py # For training the model 
 ```
 ----------------------------------------
-
 🤗🤗**Hugging face** version: [Hugging Face](https://huggingface.co/spaces/vvd2003/Yolov8_cls_500_bird_species)
 -----------------------------------------
-<img src="https://www.docker.com/wp-content/uploads/2022/03/Moby-logo.png" alt="docker" width="40" height="40"/><img src="https://www.docker.com/wp-content/uploads/2022/03/Moby-logo.png" alt="docker" width="40" height="40"/>**Docker Image**
+<img src="https://www.docker.com/wp-content/uploads/2022/03/Moby-logo.png" alt="docker" width="50" height="40"/><img src="https://www.docker.com/wp-content/uploads/2022/03/Moby-logo.png" alt="docker" width="50" height="40"/>**Docker Image**
+
 Run the following **scripts** for visual result of model:
 **Download [Docker](https://www.docker.com/)**
 **
@@ -39,9 +38,10 @@ Run the following **scripts** for visual result of model:
 ```python
 python train.py # For training the model 
 ```
-
-
-
+```python
+python train.py # For training the model 
+```
+------------------------------------------
 
 ### Training results
 
