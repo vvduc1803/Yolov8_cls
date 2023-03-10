@@ -41,7 +41,7 @@ Run the following **scripts** for visual result of model:
 
 ```
 ```python
-docker run vvduc/500bird_cls
+docker run vvduc/500bird_cls     # Run the container
 ```
 ------------------------------------------
 
