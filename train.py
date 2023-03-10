@@ -61,7 +61,7 @@ def main():
     
         # Sve model each 5 epochs
         if (epoch + 1) % 5 == 0 & config.SAVE_MODEL:
-            save_checkpoint(model_yolo, optimizer, "model_checkpoint_drop.pt")
+            save_checkpoint(model_yolo, optimizer, "model_checkpoint.pt")
         print('--------------------------------------------------------------------')
 
     # Final testing process
