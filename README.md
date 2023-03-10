@@ -10,7 +10,6 @@ A model of **image classification** based on **Yolov8** architecture using pytor
 
 ```python
 pip install torchsummary # keras-summary
-pip install tensorboard  # tensoflow-logging
 pip install torchvision  # pytorch for vision
 ```
 
