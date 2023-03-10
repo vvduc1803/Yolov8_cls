@@ -1,3 +1,8 @@
+# -*- coding: utf-8 -*-
+"""
+@author: Van Duc <vvduc03@gmail.com>
+"""
+
 """Import necessary packages"""
 import torch
 from torchvision import transforms
