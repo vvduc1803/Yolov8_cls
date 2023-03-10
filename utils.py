@@ -1,3 +1,7 @@
+# -*- coding: utf-8 -*-
+"""
+@author: Van Duc <vvduc03@gmail.com>
+"""
 """Import all necessary package"""
 import torch
 from tqdm.auto import tqdm
