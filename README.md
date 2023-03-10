@@ -17,18 +17,31 @@ pip install torchvision  # pytorch for vision
 **NB**: Update the libraries to their latest versions before training.
 
 ### How to run
-
+----------------------------------------
 ⬇️⬇️**Download** and extract training dataset on Kaggle: [500 bird species dataset](https://www.kaggle.com/datasets/gpiosenka/100-bird-species)
 
 ⬇️⬇️**Download** pretrained model: [Model](https://drive.google.com/file/d/1zyREJei3KgIUaEEPvsaZxjdXNuD6grgx/view)
-
-🤗🤗**Hugging face** version: [Hugging Face](https://huggingface.co/spaces/vvd2003/Yolov8_cls_500_bird_species)
 
 Run the following **scripts** for training and/or testing
 
 ```python
 python train.py # For training the model 
 ```
+----------------------------------------
+
+🤗🤗**Hugging face** version: [Hugging Face](https://huggingface.co/spaces/vvd2003/Yolov8_cls_500_bird_species)
+-----------------------------------------
+<img src="https://www.docker.com/wp-content/uploads/2022/03/Moby-logo.png" alt="docker" width="40" height="40"/><img src="https://www.docker.com/wp-content/uploads/2022/03/Moby-logo.png" alt="docker" width="40" height="40"/>**Docker Image**
+Run the following **scripts** for visual result of model:
+**Download [Docker](https://www.docker.com/)**
+**
+
+```python
+python train.py # For training the model 
+```
+
+
+
 
 ### Training results
 
