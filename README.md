@@ -57,7 +57,7 @@ Sample classification results
 
 ### Observations
 
-1. The **VGG11 network** with 38M params has a very large size i.e **0.4 GB**, compared to other models like **Resnet18(40 MB)**
+1. The **MODEL** with 38M params has a very large size i.e **0.4 GB**, compared to other models like **Resnet18(40 MB)**
 2. Adjusting parameters like **batch size, number of workers, pin_memory, ** etc. may help you **reduce training time**, especially if you have a big dataset and a high-end machine(hardware).
 3. Adjusting parameters like **learning rate, weight decay** etc maybe can help you **improve** model.
 ### Todo
