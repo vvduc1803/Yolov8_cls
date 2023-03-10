@@ -32,14 +32,16 @@ python train.py # For training the model
 <img src="https://www.docker.com/wp-content/uploads/2022/03/Moby-logo.png" alt="docker" width="50" height="40"/><img src="https://www.docker.com/wp-content/uploads/2022/03/Moby-logo.png" alt="docker" width="50" height="40"/>**Docker Image**
 
 Run the following **scripts** for visual result of model:
+
 **Download [Docker](https://www.docker.com/)**
+
 **
 
 ```python
-python train.py # For training the model 
+
 ```
 ```python
-python train.py # For training the model 
+docker run vvduc/500bird_cls
 ```
 ------------------------------------------
 
