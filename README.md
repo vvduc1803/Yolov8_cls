@@ -30,18 +30,29 @@ python train.py # For training the model
 🤗🤗**Hugging face** version: [Hugging Face](https://huggingface.co/spaces/vvd2003/Yolov8_cls_500_bird_species)
 -----------------------------------------
 <img src="https://www.docker.com/wp-content/uploads/2022/03/Moby-logo.png" alt="docker" width="50" height="40"/><img src="https://www.docker.com/wp-content/uploads/2022/03/Moby-logo.png" alt="docker" width="50" height="40"/>**Docker Image**
-
+-----------
 Run the following **scripts** for visual result of model:
 
 **Download [Docker](https://www.docker.com/)**
 
-**
+**Open CMD**
 
+**1**
 ```python
-
+docker pull vvduc/500bird_cls
 ```
+
+**2**
 ```python
-docker run vvduc/500bird_cls     # Run the container
+docker run -it -d --name 500_bird_cls -p 1234:1234 vvduc/500bird_cls     # Run the container
+```
+**3**
+```python
+docker ps -a                                                              # Run the container
+```
+**4**
+```python
+docker log -f 500_bird_cls                                                # Run the container
 ```
 ------------------------------------------
 
