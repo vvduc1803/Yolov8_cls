@@ -54,9 +54,6 @@ Sample classification results
 
 **Accuracy** of the network on the 2500 test images: **76.38%**
 
-**Confusion Matrix**
-![Screenshot](results/Confusion_Matrix.png)
-
 ### Observations
 
 1. The **VGG11 network** with 38M params has a very large size i.e **0.4 GB**, compared to other models like **Resnet18(40 MB)**
