@@ -42,13 +42,13 @@ Open **CMD**
 Download my image
 
 ```python
-docker pull vvduc/500bird_cls                                            # Pull image
+docker pull vvduc1803/500bird_cls:latest                                  # Pull image
 ```
 
 **3.**
 Copy and paste
 ```python
-docker run -it -d --name 500_bird_cls -p 1234:1234 vvduc/500bird_cls     # Run container
+docker run -it -d --name 500_bird_cls -p 1234:1234 vvduc1803/500bird_cls  # Run container
 ```
 **4.**
 Copy and paste
