@@ -48,7 +48,7 @@ docker run -it -d --name 500_bird_cls -p 1234:1234 vvduc/500bird_cls     # Run c
 **3.**
 Copy and paste
 ```python
-docker log -f 500_bird_cls                                               # Run visual result
+docker logs -f 500_bird_cls                                               # Run visual result
 ```
 ------------------------------------------
 
