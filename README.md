@@ -36,16 +36,21 @@ Run the following **scripts** for visual result of model:
 **1.**
 Download **[Docker](https://www.docker.com/)**
 
-Download **[Image]()** and extract
-
 Open **CMD**
 
 **2.**
+Download my image
+
+```python
+docker pull vvduc/500bird_cls                                            # Pull image
+```
+
+**3.**
 Copy and paste
 ```python
 docker run -it -d --name 500_bird_cls -p 1234:1234 vvduc/500bird_cls     # Run container
 ```
-**3.**
+**4.**
 Copy and paste
 ```python
 docker logs -f 500_bird_cls                                               # Run visual result
